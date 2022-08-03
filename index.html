@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev3_13_projekt_js-vertiefung_string-separation-machine</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Zeichenkettungsmaschine</h1>
+    </header>
+    <main>
+        <form action="" onsubmit="seperate(event)">
+            <article>
+                <h4>Zu trennende Zeichenkette:</h4>
+                <input type="text" id="sentence" name="inSentence">
+            </article>
+
+            <article>
+                <h4>Zeichenkette für die Trennungsposition:</h4>
+                <input type="text" id="seperator" name="inSeperator">
+            </article>
+
+            <article>
+                <div>
+                    <input type="radio" name="radioBtn" id="before" value="before">
+                    <label for="">davor trennen</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioBtn" id="after" value="after">
+                    <label for="">danach trennen</label>
+                </div>
+                <div>
+                    <input type="submit" value="Daten Absenden">
+                </div>
+            </article>
+            
+            <article>
+                
+            </article>
+        
+        </form>
+    </main>
+    <footer>
+
+        <h2>Ausgabe</h2>
+        
+        <section>
+        
+            <article>
+                <h3>Vorderer Teil</h3>
+                <div id="textBefore"></div>
+            </article>
+
+            <article>
+                <h3>Hinterer Teil</h3>
+                <div id="textAfter"></div>
+            </article>
+            
+        </section>
+    
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
